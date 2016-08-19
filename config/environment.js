@@ -8,7 +8,7 @@ module.exports = function(environment) {
       databaseURL: "https://q-for-questions.firebaseio.com",
       storageBucket: "q-for-questions.appspot.com",
     },
-    modulePrefix: 'qa',
+    modulePrefix: 'q-questions',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
