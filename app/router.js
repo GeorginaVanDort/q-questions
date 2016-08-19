@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('new-q');
+  this.route('qpage', {path: '/qpage/:q_id'});
 });
 
 export default Router;

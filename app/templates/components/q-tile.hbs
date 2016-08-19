@@ -1,3 +1,5 @@
-<p>
-  {{q.text}}
-</p>
+<div class="tile">
+  {{#link-to 'qpage' q.id}}
+    <h4>{{q.text}} - {{q.author}}</h4>
+  {{/link-to}}
+</div>
