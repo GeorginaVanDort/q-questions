@@ -5,10 +5,14 @@
     <h4>{{q.notes}}</h4>
     <span class="glyphicon glyphicon-pencil" {{action 'showUpdate'}}></span>
   </div>
+
   {{#if showUpdate}}
+  <div class="container">
     {{edit-q q=q update="update"}}
     <div class="container">
-    <br><button class="btn"{{action 'hideUpdate'}}>Cancel</button>
+    <button class="btn" {{action 'hideUpdate'}}>Cancel</button>
     </div>
+  </div>
   {{/if}}
+
 </div>
