@@ -1,12 +1,12 @@
-<div>
-  <h1>Edit this Q</h1>
+<div class="container">
+  <h3>Edit this Q</h3>
   <hr>
     <form>
       <div class="form-group">
         {{input value=q.text id="text"}}
       </div>
       <div class="form-group">
-        <label for="date">Your Name</label>
+        <label for="date"></label>
         {{input value=q.author id="author"}}
       </div>
       <div class="form-group">
@@ -14,6 +14,6 @@
         <br>
         {{textarea rows="6" cols="40" value=q.notes id="notes"}}
       </div>
-      <button class="btn"{{action 'update' q}}>Save</button>
+      <button class="btn"{{action 'update' q}}>Save</button> 
     </form>
 </div>
